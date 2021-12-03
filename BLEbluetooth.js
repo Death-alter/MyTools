@@ -735,7 +735,7 @@ PrativeClass.prototype.getService = function (operationName, serviceId) {
     }).catch(err => {
       reject(err);
     })
-  }); F
+  });
 }
 
 /**
