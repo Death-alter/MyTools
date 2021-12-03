@@ -67,7 +67,7 @@ const Toast = plus.android.importClass("android.widget.Toast");
  * @param {string} [object.write_characteristicId] - 写入服务的特征值，如果创建对象时未传，需要调用setId方法手动设置
  * @param {string} [object.notify_serviceId] - 读取服务的Id，如果创建对象时未传，需要调用setId方法手动设置
  * @param {string} [object.notify_characteristicId] - 读取服务的特征值，如果创建对象时未传，需要调用setId方法手动设置
- * @param {object} object.options - H5调用蓝牙requestDevice方法时传入的参数，具体参照WebBluetooth API
+ * @param {object} [object.options] - H5调用蓝牙requestDevice方法时必须传入的参数，具体参照WebBluetooth API
  * @param {callback} [object.onInit] - 蓝牙对象初始化时触发的回调
  * @param {onStateChange} [object.onStateChange] - 蓝牙对象状态改变时触发的回调
  * @param {onDeviceFound} [object.onDeviceFound] - 发现蓝牙设备时触发的回调,会覆盖startSearchDevice的回调
