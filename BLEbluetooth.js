@@ -2,6 +2,7 @@
  * @description
  * 兼容UNIAPP和浏览器的低功耗蓝牙，解决UNIAPP控制台输出不方便调试的问题。
  * 在浏览器中使用时需要浏览器支持WebBluetooth API。
+ * 仅支持浏览器环境和UNIAPP低功耗蓝牙APi支持的平台。不支持IOS，不支持IOS，不支持IOS。
  */
 
 //枚举类型
