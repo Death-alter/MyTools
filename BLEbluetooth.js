@@ -71,11 +71,11 @@ const Toast = plus.android.importClass("android.widget.Toast");
  * @param {callback} [object.onInit] - 蓝牙对象初始化时触发的回调
  * @param {onStateChange} [object.onStateChange] - 蓝牙对象状态改变时触发的回调
  * @param {onDeviceFound} [object.onDeviceFound] - 发现蓝牙设备时触发的回调,会覆盖startSearchDevice的回调
- * @param {callback} object.onConnect - 蓝牙连接成功时触发的回调
- * @param {callback} object.onDisconnect - 蓝牙断开连接时触发的回调
- * @param {onCharacteristicChange} object.onCharacteristicChange - 蓝牙特征值改变时触发的回调,会覆盖startListenValueChange的回调
- * @param {onCharacteristicWritten} object.onCharacteristicWritten - 写入特征值时触发的回调
- * @param {callback} object.onDestory - 蓝牙对象销毁时触发的回调
+ * @param {callback} [object.onConnect] - 蓝牙连接成功时触发的回调
+ * @param {callback} [object.onDisconnect] - 蓝牙断开连接时触发的回调
+ * @param {onCharacteristicChange} [object.onCharacteristicChange] - 蓝牙特征值改变时触发的回调,会覆盖startListenValueChange的回调
+ * @param {onCharacteristicWritten} [object.onCharacteristicWritten] - 写入特征值时触发的回调
+ * @param {callback} [object.onDestory] - 蓝牙对象销毁时触发的回调
  */
 export default function PrativeClass(object) {
   //私有属性
